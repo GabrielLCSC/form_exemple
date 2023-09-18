@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+h3 {
+  padding: 50px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px;
+}
+.form .form-group {
+  margin-bottom: 1rem;
+}
+.form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000000;
+}
+.form .form-group input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #000000;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.form .form-group input:focus {
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #bd1515;
+  outline: none;
+}
+.form .form-group input::-moz-placeholder {
+  color: #cecece;
+  font-size: 1.5rem;
+}
+.form .form-group input::placeholder {
+  color: #cecece;
+  font-size: 1.5rem;
+}
+.form button {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #bd1515;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.form button:hover {
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(83, 83, 83, 0.377) 0px 3px 8px 0px;
+}
+.form .form_link {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 30px;
+}
+.form .form_link a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.form .form_link a:hover {
+  transition: all 0.3s ease-in-out;
+  color: #bd1515;
+}/*# sourceMappingURL=style.css.map */
